@@ -22,7 +22,7 @@ void draw() {
   }
 
   for (int i=0; i < balls.length; i++ ) {
-    balls[i].draw(i);
+    balls[i].draw();
     balls[i].process();
   }
 }
